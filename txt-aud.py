@@ -1,6 +1,4 @@
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-'''import PyPDF2
+import PyPDF2
 import pyttsx3
 
 # Extract text from PDF
@@ -16,4 +14,4 @@ pdf_file.close()
 # Convert text to speech
 tts_engine = pyttsx3.init()
 tts_engine.save_to_file(text, 'P:/python/output_audio.mp3')
-tts_engine.runAndWait()'''
+tts_engine.runAndWait()
