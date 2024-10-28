@@ -16,4 +16,12 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install PyPDF2 pyttsx3
+
+    - name: Run txt-aud.py
+      run: |
+        python txt-aud.py
