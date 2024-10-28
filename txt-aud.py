@@ -2,7 +2,7 @@ import PyPDF2
 import pyttsx3
 
 # Extract text from PDF
-pdf_file = open('P:/python/660440237-Maine-Apni-Behnon-Ko-Kaise-Choda-Aur-Un-Ko-Chudwaya-Part-1.pdf', 'rb')
+pdf_file = open('name_with_directory_of_pdf', 'rb')
 pdf_reader = PyPDF2.PdfReader(pdf_file)
 text = ""
 
@@ -13,5 +13,5 @@ pdf_file.close()
 
 # Convert text to speech
 tts_engine = pyttsx3.init()
-tts_engine.save_to_file(text, 'P:/python/output_audio.mp3')
+tts_engine.save_to_file(text, 'directory_and_name_of_audioFile')
 tts_engine.runAndWait()
