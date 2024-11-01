@@ -1,6 +1,6 @@
 - name: Run train.py
   run: |
-    python <correct-path>/train.py
+    python train.py
 
 on: [push, pull_request]
 
