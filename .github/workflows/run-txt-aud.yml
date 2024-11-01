@@ -1,6 +1,6 @@
 name: Run txt-aud.py
   run: |
-    python txt-aud.py
+    python Tect-to-audio/txt-aud.py
     
 on: [push, pull_request]
 
