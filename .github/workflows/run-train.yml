@@ -1,6 +1,6 @@
 - name: Run train.py
   run: |
-    python train.py
+    python Train-Reservation/train.py
 
 on: [push, pull_request]
 
