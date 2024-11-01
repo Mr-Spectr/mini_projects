@@ -1,9 +1,6 @@
 name: Run txt-aud.py
 
-on:
-  push:
-    branches:
-      - Text-to-audio
+on: [push, pull_request]
 
 jobs:
   run-script:
