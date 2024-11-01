@@ -1,4 +1,6 @@
-name: Run train.py
+- name: Run train.py
+  run: |
+    python <correct-path>/train.py
 
 on: [push, pull_request]
 
